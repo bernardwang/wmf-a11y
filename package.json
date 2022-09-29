@@ -1,0 +1,24 @@
+{
+  "name": "wmf-a11y",
+  "version": "0.0.0",
+  "description": "Automated accessibility testing for Wikimedia skins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardwang/wmf-a11y.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bernardwang/wmf-a11y/issues"
+  },
+  "license": "GPL-3.0",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/bernardwang/wmf-a11y#readme",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "mustache": "^3.0.1",
+    "node-fetch": "^2.6.7",
+    "pa11y": "^6.1.1"
+  }
+}
