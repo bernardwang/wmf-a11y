@@ -15,6 +15,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/bernardwang/wmf-a11y#readme",
+  "engines" : { 
+    "node" : ">=14.17.5"
+  },
   "dependencies": {
     "commander": "^9.1.0",
     "mustache": "^3.0.1",
